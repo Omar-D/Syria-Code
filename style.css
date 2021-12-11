@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "fuzzy";
+    src: url("fonts/fuzzy.ttf")
+}
+
+body{
+    background-color: #545454;
+    font-family: 'fuzzy';
+}
+
+a{
+    color: #81B3FD;
+}
+
+a:hover{
+    color: #fff;
+}
+
+footer{
+    padding: 10px;
+}
+
+.fixedimg{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+
+.fixedimg1{
+    background-image: url(images/bg_1.jpg);
+}
+
+.fixedimg2{
+    background-image: url(images/bg_2.jpg);
+}
+
+.fixedimg3{
+    background-image: url(images/bg_3.jpg);
+}
+
+.navbar-brand , .navbar li{
+    transition: 0.5s;
+}
+
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px #fff,
+                -10px -10px 20px #fff;
+}
+
+.navbar li:hover{
+    padding-left: 10px;
+    text-shadow: 10px 10px 20px #fff,
+                -10px -10px 20px #fff;
+}
+
+.myicon {
+    height: 30px;
+    width: 30px;
+    /* border: 2px solid #fff; */
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.navbar{
+    background-color: #232930eb !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner h1 {
+    text-shadow: 1px 1px #000;
+}
+
+.carousel-inner .carousel-caption {
+    background: rgba(200, 200, 200,0.3);
+    border-radius: 7px;
+}
